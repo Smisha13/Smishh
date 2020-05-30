@@ -1,0 +1,22 @@
+#include <stdio.h>
+
+int Last_Digit(int num); 
+
+int main()
+{
+  	int Number, LastDigit;
+ 
+  	printf("\n Please Enter any Number that you wish  : ");
+  	scanf("%d", & Number);
+  	
+  	LastDigit = Last_Digit(Number);
+  
+  	printf(" \n The Last Digit of a Given Number %d =  %d", Number, LastDigit);
+ 
+  	return 0;
+}
+
+int Last_Digit(int num)
+{
+	return num % 10;
+}
