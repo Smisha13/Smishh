@@ -1,0 +1,22 @@
+int count=0;
+  int  a=input1;
+    int b=input2;
+    int c=input3;
+    int d=input4;
+    int e=input5;
+  
+
+     
+      if(a%2==0)
+      count++;
+      if(b%2==0)
+      count++;
+      if(c%2==0)
+      count++;
+        if(d%2==0)
+      count++;
+        if(e%2==0)
+      count++;
+      return count;
+    }
+}
